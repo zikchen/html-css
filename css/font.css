@@ -39,20 +39,40 @@
 }
 .navbar_menu a{
 	padding:11px;
+	display: block;
 }
 .introduce {
   padding:55px 37px 0px 19px;
 }
+.introduce h2{
+	font-size: 18px;
+	padding-bottom: 5px;
+}
+.introduce p,.introduce li{
+	line-height: 1.3em;
+}
+.introduce div{
+	box-shadow:2px 2px 2px 2px #dbdbdb;
+	text-align: center;	
+}
+.introduce .img1{
+	margin:10px 0px 28px 0px;
+}
+.introduce .img2{
+	margin:20px 0px 82px 0px;
+}
+.introduce .img3{
+	margin:10px 0px 45px 0px;
+}
+.introduce ul{
+	list-style-type:disc;
+	list-style-position: inside;
+}
 .introduce li{
-	padding-right: 20px;
-	
+	text-align: left;
+	padding-left:2px;
 }
-.introduce li img{
-	border-right:1px #f1f1f1 solid;
-	border-left:1px #f1f1f1 solid;
-	border-bottom:1px #f1f1f1 solid;
-	box-shadow: 2px 2px #dbdbdb;
-}
+
 .feature p{
 	font-size: 24pt;
 }
